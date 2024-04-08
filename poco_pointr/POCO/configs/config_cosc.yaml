@@ -1,0 +1,18 @@
+dataset_name: COSC
+dataset_sub_name: surface
+# dataset_sub_name: closedbottom
+# dataset_sub_name: table
+# dataset_sub_name: singleframe
+dataset_root: ../data
+
+manifold_points: 10240
+non_manifold_points: 10000
+random_noise: 0.005
+
+iter_nbr: 1000000
+resume_from_shapenet: True
+
+train_last_fc: False
+predict_pc: True
+
+gen_refine_iter: 10
