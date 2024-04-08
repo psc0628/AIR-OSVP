@@ -12,7 +12,6 @@ Make sure "model_path" in DefaultConfiguration.yaml contains these processed 3D 
 You may find our pre-porcessed 3D models at [Kaggle](https://www.kaggle.com/datasets/sicongpan/ma-scvp-dataset).  
 Or use [this sampling method](https://github.com/PointCloudLibrary/pcl/blob/master/tools/mesh_sampling.cpp) to process your own 3D object model from *.obj or *.ply to *.pcd.  
 The "pre_path" in DefaultConfiguration.yaml is the results saving path.  
-Follow [MA-SCVP](https://github.com/psc0628/MA-SCVP) to setup baselines of nbvnet, pcnbv, mascvp. The "nbv_net_path", "pcnbv_path", "sc_net_path" should be the downloaded network paths.  
 
 ## Main Usage
 1. The mode of the system should be input in the Console.  
@@ -25,6 +24,7 @@ Follow [MA-SCVP](https://github.com/psc0628/MA-SCVP) to setup baselines of nbvne
 4. Run "python mesh_gen_all.py" to generate mesh.  
 
 ### Change in methods and setup
+For baselines, follow [MA-SCVP](https://github.com/psc0628/MA-SCVP) to setup nbvnet, pcnbv, mascvp. The "nbv_net_path", "pcnbv_path", "sc_net_path" should be the downloaded network paths.  
 Change 1352-1364 lines in main.cpp for different methods with rotate_states and init_views (default run our method).
 
 

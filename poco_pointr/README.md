@@ -4,8 +4,8 @@ This folder contains scripts to interact with POCO and Pointr.
 
 ## Installion
 
-Follow ["POCO"](https://github.com/valeoai/POCO) to install the environment and (checkpoint)[https://github.com/valeoai/POCO/releases/download/v0.0.0/ShapeNet_3k.zip].  The checkpoint should be put to "POCO/checkpoint.pth".
-Follow ["PoinTr"](https://github.com/yuxumin/PoinTr) to install the environment. Our dataset and checkpoint can be asscess at (Kaggle)[].  The checkpoint should be put to "pointrVP/trained_network/best_ckpt.pth".
+Follow ["POCO"](https://github.com/valeoai/POCO) to install the environment and [checkpoint](https://github.com/valeoai/POCO/releases/download/v0.0.0/ShapeNet_3k.zip).  The checkpoint should be put to "POCO/checkpoint.pth".  
+Follow ["PoinTr"](https://github.com/yuxumin/PoinTr) to install the environment. Our dataset and checkpoint can be asscess at [Kaggle](https://www.kaggle.com/datasets/sicongpan/air-osvp-dataset).  The checkpoint should be put to "pointrVP/trained_network/best_ckpt.pth".
 
 ## Usage
 
